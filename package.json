@@ -1,0 +1,17 @@
+{
+  "name": "card-grid-flexbox",
+  "version": "1.0.0",
+  "description": "Master in Front-End Development by Lemoncode - Challenge 4: Create a grid of card elements using flexbox and grid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "layout",
+    "card",
+    "grid",
+    "flexbox"
+  ],
+  "author": "@zaretmir",
+  "license": "ISC"
+}
