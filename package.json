@@ -4,6 +4,7 @@
   "description": "Master in Front-End Development by Lemoncode - Challenge 4: Create a grid of card elements using flexbox and grid.",
   "main": "index.js",
   "scripts": {
+    "start": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
