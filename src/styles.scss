@@ -16,7 +16,6 @@ body {
   justify-content: space-between;
 
   width: 320px;
-  height: 512px;
   background-color: whitesmoke;
   box-shadow: 0 0 16px $color-muted;
 
@@ -29,13 +28,9 @@ body {
     position: relative;
     margin: 0 0.75rem;
     line-height: 1.3rem;
-    min-height: 0;
 
     & .card-extra-info {
-      display: block;
-      position: absolute;
-      bottom: 0;
-      right: 0;
+      text-align: end;
       color: $color-accent;
 
       & > span {
