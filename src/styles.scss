@@ -1,0 +1,58 @@
+$color-accent: #009282;
+$color-muted: #696969;
+$color-font-basic: #444444;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #ececec;
+  color: $color-font-basic;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 320px;
+  height: 512px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 16px $color-muted;
+
+  img {
+    height: 200px;
+  }
+
+  .card-body {
+    flex-grow: 1;
+    position: relative;
+    margin: 0 0.75rem;
+    line-height: 1.3rem;
+    min-height: 0;
+
+    & .card-extra-info {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      color: $color-accent;
+
+      & > span {
+        font-weight: bolder;
+        color: $color-font-basic;
+      }
+    }
+  }
+
+  .card-btn {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: $color-accent;
+    padding: 1rem 0;
+    margin: 0 0.75rem 0.75rem 0.75rem;
+  }
+}
