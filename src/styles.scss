@@ -10,6 +10,12 @@ body {
   color: $color-font-basic;
 }
 
+.cards-container {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .card {
   display: flex;
   flex-direction: column;
