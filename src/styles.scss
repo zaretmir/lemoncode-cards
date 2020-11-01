@@ -2,6 +2,8 @@ $color-accent: #009282;
 $color-muted: #696969;
 $color-font-basic: #444444;
 
+$card-width: 320px;
+
 body {
   margin: 0;
   padding: 0;
@@ -13,7 +15,10 @@ body {
 .cards-container {
   display: grid;
   width: 100vw;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  grid-gap: 32px;
+  grid-template-columns: repeat(auto-fill, minmax($card-width, 1fr));
 }
 
 .card {
@@ -21,7 +26,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 
-  width: 320px;
+  width: $card-width;
   background-color: whitesmoke;
   box-shadow: 0 0 16px $color-muted;
 
